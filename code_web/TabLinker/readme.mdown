@@ -1,7 +1,7 @@
 <img src='https://github.com/dreamgirl314/Trust_code/tree/master/code_web/TabLinker/img/Accurator.png'/>
 
 # Accurator Trust
-**Authors**: [Davide Ceolin](https://github.com/davideceolin), [Archana Nottamkandath](http://github.com/dreamgirl314), [[Albert Meroño-Peñuela](https://github.com/albertmeronyo)
+**Authors**: [Davide Ceolin](https://github.com/davideceolin), [Archana Nottamkandath](http://github.com/dreamgirl314), [Albert Meroño-Peñuela](https://github.com/albertmeronyo)
 
 **Copyright**: VU University Amsterdam
 
