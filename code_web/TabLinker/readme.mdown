@@ -1,23 +1,21 @@
-<img src='http://github.com/Data2Semantics/TabLinker/raw/master/img/tablinker-logo-150dpi.png'/>
+<img src='https://github.com/dreamgirl314/Trust_code/tree/master/code_web/TabLinker/img/Accurator.png'/>
 
-# TabLinker v0.2
-**Authors**: [Rinke Hoekstra](http://github.com/RinkeHoekstra), [Laurens Rietveld](http://github.com/LaurensRietveld), [Albert Meroño-Peñuela](http://github.com/albertmeronyo)
+# Accurator Trust
+**Authors**: [Davide Ceolin](https://github.com/davideceolin), [Archana Nottamkandath](http://github.com/dreamgirl314)
 
 **Copyright**: VU University Amsterdam
 
-**License**: [LGPL v3.0](http://www.gnu.org/licenses/lgpl.html)
 
-## About TabLinker
+## About Accurator Trust
 
-TabLinker is experimental software for converting manually annotated Microsoft Excel workbooks to the [RDF Data Cube vocabulary](http://publishing-statistical-data.googlecode.com/svn/trunk/specs/src/main/html/cube.html). It is used in the context of the [Data2Semantics](http://www.data2semantics.org) project to investigate the use of Linked Data for humanities research ([Dutch census data](http://www.volkstellingen.nl) produced by [DANS](http://dans.knaw.nl)).
-
+This software is developed to evaluate the quality of user provided information to the online system [Accurator](http://sealincmedia.wordpress.com/tag/accurator/). This is developed as part of [COMMIT](http://www.commit-nl.nl/)project entitled [SEALINC Media](https://sealincmedia.wordpress.com/). The goal of this software is to semi-automatically predict the quality of information provided by the users on the web. 
+Accurator Trust uses TabLinker, which is an experimental software for converting manually annotated Microsoft Excel workbooks to the [RDF Data Cube vocabulary](http://publishing-statistical-data.googlecode.com/svn/trunk/specs/src/main/html/cube.html). It is used in the context of the [Data2Semantics](http://www.data2semantics.org) project to investigate the use of Linked Data for humanities research ([Dutch census data](http://www.volkstellingen.nl) produced by [DANS](http://dans.knaw.nl)).
 TabLinker was designed for converting Excel or CSV files to RDF (triplification, RDF-izing) that have a complex layout and cannot be handled by fully automatic csv2rdf scripts.
 
-A presentation about Linked Census Data, including TabLinker is [available from SlideShare](http://www.slideshare.net/rinkehoekstra/linked-census-data).
 
-## Using TabLinker
+## Using Accurator Trust
 
-TabLinker takes annotated Excel files (found using the `srcMask` option in the [config.ini](http://github.com/Data2Semantics/TabLinker/tree/master/config.ini) file) and converts them to RDF. This RDF is serialized to the target folder specified using the `targetFolder` option in [config.ini](http://github.com/Data2Semantics/TabLinker/tree/master/config.ini).
+Accurator Trust takes annotated Excel files  and converts them to RDF. This RDF is then passed on to the trust evaluation algorithms as input and the trust values of the annotations are generated as output.
 
 Annotations in the Excel file should be done using the built-in **style** functionality of Excel (you can specify these by hand). TabLinker currently recognises seven styles:
 
@@ -69,6 +67,8 @@ TabLinker was developed under the following environment:
 * Python 2.7
 * The xlutils and xlrd packages from <http://www.python-excel.org/>
 * RDFLib 4.0.1, from <http://www.rdflib.net>
+* NLTK
+* PYYAML
 
 ## API Documentation
 
