@@ -1,0 +1,20 @@
+usefulness-not_useful bird 
+
+usefulness-not_useful lily 
+
+usefulness-not_useful blue 
+
+usefulness-not_useful rose 
+
+usefulness-not_useful dog 
+
+usefulness-not_useful cat 
+
+usefulness-not_useful sheep 
+
+usefulness-not_useful tulip 
+
+usefulness-not_useful sky 
+
+usefulness-not_useful cow 
+

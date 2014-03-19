@@ -1,0 +1,10 @@
+#!/Users/sna210/Dropbox/IFIPTM14/Code/web_service/code_web/develop/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'xlutils==1.7.0','console_scripts','margins'
+__requires__ = 'xlutils==1.7.0'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('xlutils==1.7.0', 'console_scripts', 'margins')()
+    )
